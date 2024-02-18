@@ -1,0 +1,23 @@
+.font-principal {
+  font-family: 'Barlow', sans-serif;
+}
+
+body {
+  --bege: #E6E0D6;
+  --marrom-escuro: #816D4F;
+  --marrom-claro: #B29463;
+}
+
+input[type=checkbox],
+input[type="checkbox"]:focus {
+  border: 2px solid var(--marrom-claro);
+  box-shadow: none;
+  outline: none;
+}
+
+input[type=checkbox]:checked {
+  background-color: var(--marrom-claro);
+  border-color: var(--marrom-claro);
+  box-shadow: none;
+  outline: none;
+}
