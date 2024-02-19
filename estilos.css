@@ -3,6 +3,7 @@
 }
 
 body {
+  height: 4000px;
   --bege: #E6E0D6;
   --marrom-escuro: #816D4F;
   --marrom-claro: #B29463;
@@ -20,4 +21,18 @@ input[type=checkbox]:checked {
   border-color: var(--marrom-claro);
   box-shadow: none;
   outline: none;
+}
+
+
+.banner-1 {
+  background-image: url("/assets/banner-1.png");
+}
+
+.banners {
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
