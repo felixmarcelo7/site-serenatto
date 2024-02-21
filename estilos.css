@@ -48,3 +48,17 @@ input[type=checkbox]:checked {
 .banner-3 {
   background-image: url("/assets/banner-3.png");
 }
+
+.btn-detalhe {
+  background-color: var(--marrom-claro);
+}
+.btn-detalhe:hover {
+  background-color: var(--marrom-escuro);
+  color: white;
+}
+
+.border-card {
+  border: solid 1px #B29463;
+  border-top: none;
+}
+
