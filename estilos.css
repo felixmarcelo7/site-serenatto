@@ -65,3 +65,12 @@ input[type=checkbox]:checked {
 .input-range::-webkit-slider-thumb {
   background-color: var(--marrom-claro);
 }
+
+.icon-estilo {
+  font-size: 1.6rem;
+  color: black;
+}
+
+.bg-rodape {
+  background-color: var(--marrom-claro);
+}
